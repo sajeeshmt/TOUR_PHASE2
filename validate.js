@@ -9,7 +9,7 @@ function validate () {
         return true;
     }
     else {
-    error.innerHTML = "invalid";
+    error.innerHTML = "invalid EmailID";
     error.style.color = "red";
     return false;
 
